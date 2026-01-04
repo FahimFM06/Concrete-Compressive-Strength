@@ -18,7 +18,7 @@ from sklearn.inspection import PartialDependenceDisplay
 import shap
 from lime.lime_tabular import LimeTabularExplainer
 
-from utils.preprocessing import build_features
+from preprocessing import build_features
 
 
 st.set_page_config(page_title="Concrete Strength Predictor", layout="wide")
