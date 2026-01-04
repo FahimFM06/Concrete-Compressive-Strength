@@ -1,0 +1,8 @@
+# This file is generated automatically by LightGBM
+# Do NOT edit manually
+
+# To create this file, use:
+# lgb_model.booster_.save_model("lightgbm_best_model.txt")
+
+# The actual content will be many lines of tree definitions
+# Keep this file exactly as saved from training
