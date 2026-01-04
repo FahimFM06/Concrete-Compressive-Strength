@@ -1,0 +1,19 @@
+[
+  "cement",
+  "blast_furnace_slag",
+  "fly_ash",
+  "water",
+  "superplasticizer",
+  "coarse_aggregate",
+  "fine_aggregate",
+  "age",
+  "binder",
+  "water_binder_ratio",
+  "total_aggregate",
+  "fine_coarse_ratio",
+  "slag_frac",
+  "flyash_frac",
+  "cement_frac",
+  "log_age",
+  "sqrt_age"
+]
