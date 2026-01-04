@@ -29,8 +29,8 @@ st.title("Concrete Compressive Strength Prediction (LightGBM)")
 # -----------------------------
 @st.cache_resource
 def load_artifacts():
-    model = lgb.Booster(model_file="artifacts/lightgbm_best_model.txt")
-    with open("artifacts/feature_names.json", "r") as f:
+    model = lgb.Booster(model_file="lightgbm_best_model.txt")
+    with open("feature_names.json", "r") as f:
         feature_names = json.load(f)
     return model, feature_names
 
